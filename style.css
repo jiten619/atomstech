@@ -3,7 +3,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #2b0ba0;
+  background-color: #02001f;
   overflow-x: hidden;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .header_section {
-  background-color: #ffffff;
+  background-color: #02001f;
 }
 
 .header_section .container-fluid {
@@ -90,9 +90,9 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
-  color: #272727;
+  color: #fff;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
 }
 
@@ -153,7 +153,7 @@ a:focus {
   display: block;
   width: 32px;
   height: 4px;
-  background-color: #000000;
+  background-color: #fff;
   border-radius: 15px;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
@@ -168,12 +168,13 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #fff;
   border-radius: 15px;
   top: -10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 
 .custom_nav-container .navbar-toggler span::after {
   top: 10px;
@@ -227,7 +228,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  background-color: #f9fafa;
+  background-color: #02001f;
 }
 
 .slider_section .row {
@@ -242,7 +243,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #000000;
+  color: #fff;
 }
 
 .slider_section .detail-box h1 {
@@ -341,6 +342,7 @@ a:focus {
 .furniture_section p {
   color: #fff;
 }
+
 
 .furniture_section .box .img-box {
   display: -webkit-box;
@@ -835,14 +837,43 @@ a:focus {
   width: 45px;
   height: 45px;
   border: 1px solid #6bb7be;
-  color: #6bb7be;
+  background-color: #fff;
+  color: black;
   font-size: 18px;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
+.dropdown-menu {
+  background: #FF3131BF;
+  opacity: 0.9;
+}
+
+.dropdown-menu a {
+  font-weight: bolder;
+  color: black;
+}
+
+.dropdown-submenu {
+  position: absolute;
+  left: 100%;
+  top: 69%;
+  z-index: 100; 
+  display: none; 
+}
+
+.dropdown-toggle:hover .dropdown-submenu {
+  display: block; 
+}
+
+.dropdown-toggle[aria-expanded="true"] + .dropdown-submenu { 
+  display: block;
+}
+
+
 .info_section .info_form .social_box a:hover {
-  color: #f89646;
-  border-color: #f89646;
+  color: #FF3131BF;
+  -webkit-box-shadow: 0 0 20px 0 #FF3131BF;
+    box-shadow: 0 0 20px 0 #FF3131BF;
 }
 
 /* footer section*/
@@ -852,7 +883,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #000000;
+  color: #fff;
   padding: 25px 0;
   margin: 0;
 }
