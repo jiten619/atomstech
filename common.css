@@ -1,0 +1,156 @@
+.navbar-toggler span {
+    background: #000
+}
+
+.common-padding-section {
+    padding-bottom: 50px
+}
+
+.common-padding-section .cmn-heading {
+    font-size: 30px;
+    line-height: 35.22px;
+    font-weight: 700;
+    color: #02001f
+}
+
+@media (min-width: 576px) {
+    .common-padding-section .cmn-heading {
+        font-size:calc(1.38888889vw + 22px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .common-padding-section .cmn-heading {
+        font-size:42px
+    }
+}
+
+@media (min-width: 576px) {
+    .common-padding-section .cmn-heading {
+        line-height:calc(1.63078704vw + 25.82666667px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .common-padding-section .cmn-heading {
+        line-height:49.31px
+    }
+}
+
+.common-padding-section .cmn-text {
+    font-weight: 500;
+    color: #02001f;
+    font-size: 16px;
+    line-height: 27.2px
+}
+
+.common-padding-section .accordion .accordion-item:first-child {
+    border-top: 2px solid
+}
+
+.common-padding-section .accordion .accordion-item:first-child,.common-padding-section .accordion .accordion-item:last-child {
+    -o-border-image: linear-gradient(270deg,#dcdcdc,#dcdcdc00 0,#dcdcdc) 1;
+    border-image: -webkit-gradient(linear,right top,left top,from(#dcdcdc),color-stop(0,#dcdcdc00),to(#dcdcdc)) 1;
+    border-image: linear-gradient(270deg,#dcdcdc,#dcdcdc00 0,#dcdcdc) 1;
+    border-bottom: 2px solid
+}
+
+.common-padding-section .accordion .accordion-item .accordion-button {
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 30px;
+    line-height: 23px
+}
+
+.common-padding-section .accordion .accordion-item .accordion-button:after {
+    position: absolute;
+    left: 0
+}
+
+.common-padding-section .accordion .accordion-item .accordion-button:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none
+}
+
+.common-padding-section .accordion .accordion-item .accordion-button:not(.collapsed) {
+    color: #f31524;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.common-padding-section .accordion .accordion-item .accordion-button:not(.collapsed):after {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='red'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E")
+}
+
+.common-padding-section .accordion .accordion-item:not(:first-of-type) {
+    -o-border-image: linear-gradient(270deg,#dcdcdc,#dcdcdc00 0,#dcdcdc) 1;
+    border-image: -webkit-gradient(linear,right top,left top,from(#dcdcdc),color-stop(0,#dcdcdc00),to(#dcdcdc)) 1;
+    border-image: linear-gradient(270deg,#dcdcdc,#dcdcdc00 0,#dcdcdc) 1;
+    border-bottom: 2px solid
+}
+
+.common-padding-section .accordion .accordion-body {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0
+}
+
+.common-padding-section .awards-coniatiner h2 {
+    font-weight: 600
+}
+
+.common-padding-section .awards-coniatiner img {
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.common-padding-section .awards-coniatiner img:hover {
+    -webkit-box-shadow: 10px 15px 20px #c5c3c3;
+    box-shadow: 10px 15px 20px #c5c3c3
+}
+
+.common-padding-section .awards-coniatiner .card {
+    border: none
+}
+
+.common-padding-section .awards-coniatiner .card .card-body {
+    padding: 0
+}
+
+.common-padding-section .awards-coniatiner .more-awards-btn {
+    background-color: #000;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    line-height: 21px
+}
+
+.common-padding-section .awards-coniatiner .awards p {
+    font-size: 22px;
+    line-height: 25.83px;
+    font-weight: 600
+}
+
+@media (min-width: 1023px) {
+    .common-container {
+        padding-top:55px
+    }
+
+    .common-padding-section .accordion .accordion-item .accordion-button {
+        font-size: 20px;
+        line-height: 35px
+    }
+
+    .common-padding-section .accordion .accordion-body {
+        padding-left: 20px
+    }
+}

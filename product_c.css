@@ -1,0 +1,488 @@
+.nav-link-2 {
+    color: #000!important
+}
+
+[data-target=products] .nav-link:after {
+    width: 40%!important;
+    left: 50%!important;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #f31524!important
+}
+
+.enquiry-btn {
+    background-color: #f31524;
+    color: #fff
+}
+
+.enquiry-btn:before {
+    background-color: #02001f
+}
+
+.enquiry-btn:hover {
+    color: #fff
+}
+
+.lb-nav a.lb-prev {
+    left: -40px
+}
+
+.lb-nav a.lb-next {
+    right: -40px
+}
+
+lite-youtube:before {
+    content: "";
+    background-image: none
+}
+
+.lb-image {
+    height: 340px!important;
+    width: 340px!important
+}
+
+.lightbox {
+    height: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100vw
+}
+
+.banner-section,.lightbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.banner-section {
+    background-image: url("/images/banner-mob.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.product-heading {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #000;
+    text-align: left
+}
+
+@media (min-width: 576px) {
+    .product-heading {
+        font-size:calc(1.15740741vw + 33.33333333px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .product-heading {
+        font-size:50px
+    }
+}
+
+@media (min-width: 576px) {
+    .product-heading {
+        line-height:calc(1.15740741vw + 43.33333333px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .product-heading {
+        line-height:60px
+    }
+}
+
+.product-heading span {
+    font-size: 25px;
+    line-height: 35px
+}
+
+@media (min-width: 576px) {
+    .product-heading span {
+        font-size:calc(.5787037vw + 21.66666667px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .product-heading span {
+        font-size:30px
+    }
+}
+
+@media (min-width: 576px) {
+    .product-heading span {
+        line-height:calc(.5787037vw + 31.66666667px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .product-heading span {
+        line-height:40px
+    }
+}
+
+.product-subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+    color: #000
+}
+
+@media (min-width: 576px) {
+    .product-subtitle {
+        font-size:calc(.23148148vw + 16.66666667px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .product-subtitle {
+        font-size:20px
+    }
+}
+
+@media (min-width: 576px) {
+    .product-subtitle {
+        line-height:calc(1.15740741vw + 21.33333333px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .product-subtitle {
+        line-height:38px
+    }
+}
+
+.products-inner-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff
+}
+
+.product-detail-container>div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.enquiry-btn {
+    width: 100%;
+    padding: 13px 0;
+    font-weight: 600
+}
+
+.products-inner-nav .nav {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow: auto
+}
+
+.products-inner-nav a {
+    white-space: nowrap;
+    padding: 8px 4px;
+    margin: 0 18px;
+    border-bottom: 2px solid transparent
+}
+
+.products-inner-nav .thisactive a {
+    color: #f31524!important;
+    border-color: #f31524;
+    position: relative
+}
+
+.first-feature {
+    background-image: url("../images/section-hsg-layout-section-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 857px;
+    width: 100%
+}
+
+.feature-title {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-align: left;
+    color: #02001f;
+    margin-bottom: 25px
+}
+
+@media (min-width: 576px) {
+    .feature-title {
+        font-size:calc(.5787037vw + 21.66666667px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .feature-title {
+        font-size:30px
+    }
+}
+
+@media (min-width: 576px) {
+    .feature-title {
+        line-height:calc(.5787037vw + 31.66666667px)
+    }
+}
+
+@media (min-width: 1440px) {
+    .feature-title {
+        line-height:40px
+    }
+}
+
+.feature-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #4a4a4a;
+    margin-bottom: 25px
+}
+
+.highlighted-text {
+    width: 45px;
+    opacity: 1;
+    background-color: #f31524
+}
+
+hr:not([size]) {
+    height: 3px
+}
+
+.third-feature {
+    background-image: url("../images/products/c-series/section-hsg-layout-blue-section-mob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+    width: 100%
+}
+
+.third-feature .feature-content {
+    padding-top: 50px
+}
+
+.technical-parameter-section {
+    background: #f6f6f6;
+    padding: 150px 0
+}
+
+.technical-parameter-table thead {
+    background-color: #02001f;
+    color: #fff
+}
+
+.cutting-sample-section {
+    background-color: #02001f;
+    padding: 100px 0
+}
+
+ul.slick-dots {
+    text-align: left
+}
+
+ul.slick-dots li {
+    margin: 2px;
+    height: 3px
+}
+
+ul.slick-dots li button:before {
+    content: "";
+    height: 7px;
+    width: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+ul.slick-dots li.slick-active {
+    margin-right: 20px
+}
+
+ul.slick-dots li.slick-active button:before {
+    width: 30px
+}
+
+.brochure-btn {
+    border: 1px solid #f31524;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #f31524
+}
+
+.brochure-btn:before {
+    background-color: #f31524
+}
+
+.brochure-btn:hover {
+    color: #fff
+}
+
+.product-spec {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35%
+}
+
+.product-spec li {
+    color: #717171;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0;
+    text-align: left
+}
+
+.fourth-feature {
+    background-image: url("../images/products/bevel-gfa-series/bevel-gfa-feature-4-background-mob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%
+}
+
+.fourth-feature .feature-content {
+    padding-top: 50px
+}
+
+.fifth-feature {
+    background-image: url("../images/products/gt-pro/gt-pro-feature-3-background-mob.png")
+}
+
+.fifth-feature,.sixth-feature {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+    width: 100%
+}
+
+.sixth-feature {
+    background-image: url("../images/products/gt-pro/gt-pro-feature-5-background-mob.png")
+}
+
+.seventh-feature {
+    background-image: url("../images/products/gt-pro/gt-pro-feature-7-background-mob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 950px;
+    width: 100%
+}
+
+.product-subtitle li {
+    color: #505050;
+    font-size: 14px;
+    line-height: 24px
+}
+
+@media (min-width: 768px) {
+    .products-inner-nav {
+        margin-top:40px
+    }
+
+    .banner-section {
+        background-image: url("../images/products/c-series/banner-web.jpg");
+        width: 100%;
+        height: 640px
+    }
+
+    .third-feature .feature-content {
+        padding-top: 0
+    }
+
+    .enquiry-btn {
+        padding: 13px 50px
+    }
+
+    .brochure-btn,.enquiry-btn {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content
+    }
+}
+
+@media (min-width: 992px) {
+    .brochure-btn {
+        width:-webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content
+    }
+
+    .first-feature {
+        background-image: url("../images/products/c-series/section-hsg-layout-section-1.png");
+        height: 600px
+    }
+
+    .third-feature {
+        background-image: url("../images/products/c-series/section-hsg-layout-blue-section.png");
+        height: 600px
+    }
+
+    .fourth-feature {
+        background-image: url("../images/products/bevel-gfa-series/bevel-gfa-feature-4-background.png");
+        height: 660px
+    }
+
+    .fifth-feature {
+        background-image: url("../images/products/gt-pro/gt-pro-feature-3-background.png");
+        height: 660px
+    }
+
+    .sixth-feature {
+        background-image: url("../images/products/gt-pro/gt-pro-feature-5-background.png");
+        height: 400px
+    }
+
+    .seventh-feature {
+        background-image: url("../images/products/gt-pro/gt-pro-feature-7-background.png");
+        background-position: 50%;
+        height: 500px
+    }
+
+    .product-detail-container {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .samples img {
+        height: 200px;
+        width: 200px;
+        margin: 1.2rem .8rem;
+        aspect-ratio: 1/1
+    }
+}
+
+@media (min-width: 1500px) {
+    .banner-section {
+        background-position:50%
+    }
+}
