@@ -217,13 +217,11 @@ a:focus {
 
 /* prodcut detail container  */
 
-/* .banner-section {
-  background-image: url(../images/banner-mob.jpg);
-  height: 1024px;
-} */
+
 .banner-section {
   background-image: url(/images/2D-Fiber-Laser-Cutting-Machine.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 920px;
@@ -1456,3 +1454,8 @@ lite-youtube.lyt-activated:before,lite-youtube.lyt-activated>.lty-playbtn {
       aspect-ratio: 1/1
   }
 }
+
+
+
+
+
